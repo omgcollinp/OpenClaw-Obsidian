@@ -1,0 +1,5 @@
+# Groceries
+
+- Avocados
+- Eggs
+- Spinach
