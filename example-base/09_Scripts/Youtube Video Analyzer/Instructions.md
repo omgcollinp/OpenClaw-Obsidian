@@ -12,7 +12,7 @@
 4. Use AssemblyAI to transcribe the video with `"/Users/collin/Documents/ParteeLabs/09_Scripts/Youtube Video Analyzer/scripts/transcribe_assemblyai.py"`
 	1. Optional: activate venv first: `source "/Users/collin/Documents/ParteeLabs/09_Scripts/Youtube Video Analyzer/scripts/.venv_yta/bin/activate"`
 	2. see docs [here](https://www.assemblyai.com/docs/getting-started/transcribe-an-audio-file)
-	3. set env var first: `export ASSEMBLYAI_API_KEY="23d0686c0eee4faab9c3e88f08b6d65f"`
+	3. set env var first: `export ASSEMBLYAI_API_KEY="<YOUR_ASSEMBLYAI_API_KEY>"`
 	4. run: `python3 "/Users/collin/Documents/ParteeLabs/09_Scripts/Youtube Video Analyzer/scripts/transcribe_assemblyai.py" --file "/Users/collin/Documents/ParteeLabs/09_Scripts/Youtube Video Analyzer/downloads/<file>.mp3" --out "/Users/collin/Documents/ParteeLabs/09_Scripts/Youtube Video Analyzer/transcripts/<file>_assemblyai" --language-detection --speaker-labels`
 5. Use Codex 5.3 to analyze the video use one of these prompts:
 	1. EYL Market Monday Video: [[09_Scripts/Youtube Video Analyzer/video-analysis.prompts/Market Mondays.prompt]]
